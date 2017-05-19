@@ -280,14 +280,12 @@
      </item>
      <item>
       <widget class="QComboBox" name="comboBox">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
        <item>
         <property name="text">
          <string>PIC 10C. Advanced Programming</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>PIC 10A. Introduction to Programming </string>
         </property>
        </item>
        <item>
@@ -355,7 +353,8 @@
        <item>
         <widget class="QLabel" name="label_11">
          <property name="text">
-          <string>Final Exam     </string>
+          <string>Final Exam 
+(MT2 10B)      </string>
          </property>
         </widget>
        </item>
@@ -383,7 +382,8 @@
        <item>
         <widget class="QLabel" name="label_12">
          <property name="text">
-          <string>Final Project   </string>
+          <string>Final Project 
+(Final 10B)      </string>
          </property>
         </widget>
        </item>
